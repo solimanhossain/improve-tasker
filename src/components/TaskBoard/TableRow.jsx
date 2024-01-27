@@ -5,15 +5,14 @@ import { ModalOpenCLose } from "../../contexts/ModalContext";
 import { toast } from "react-toastify";
 
 function Tag({ tag }) {
-    const color = ["green", "red", "pink", "yellow", "blue", "cyan", "purple"];
-    let len = tag.length - 2;
-    if (0 > len || len > 6) {
-        len = 0;
-    }
+    let clr = `bg-blue-600`;
+    if (3 >= tag.length) clr = `bg-green-600`;
+    else if (6 <= tag.length) clr = `bg-red-600`;
+
     return (
         <li>
             <span
-                className={`bg-${color[len]}-600 inline-block h-5 whitespace-nowrap rounded-[45px] z-10 px-2.5 text-sm capitalize text-[#F4F5F6]`}
+                className={`${clr} inline-block h-5 whitespace-nowrap rounded-[45px] z-10 px-2.5 text-sm capitalize text-[#F4F5F6]`}
             >
                 {tag}
             </span>
