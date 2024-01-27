@@ -1,8 +1,27 @@
-# React + Vite
+# Assignment 3 - Improved Tasker
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Done by Soliman Hossain
 
-Currently, two official plugins are available:
+> Initialize vite react Project using provided template.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+> Used Context API and useReducer for State Management.
+
+> Click add open popup and after provided info added to list.
+
+> Creating task validation, waring not fill up full. For alert used React Toastify.
+
+> Edit task with validation function.
+
+> Delete task from list.
+
+> Delete all task from detete all task button.
+
+> Live search with title by filtering and empty search bar provide full list.
+
+> Add tag using comma and followed given template.
+
+> When list empty show "Task List is empty!".
+
+> Used Context API and useReducer in proper place and do not change style of tempate.
+
+##
